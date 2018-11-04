@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+int minimum();
+int numbers[10];
+
+int main()
+{
+   int i,min;
+  
+
+   srand(time(0));
+
+ for(i=0;i<10;i++)
+ { 
+     numbers[i]=rand()%10;
+	
+	 printf("Number %d = %d\n",i,numbers[i]);
+
+
+   }
+ 
+
+ min=0;
+
+ printf("Minimum number is %d\n",min);
+
+ system("pause");
+}
+
+int minimum()
+{
+	
+    int i,min;
+	
+	min=numbers[0];
+	min>numbers[i];
+
+	return min;
+}
